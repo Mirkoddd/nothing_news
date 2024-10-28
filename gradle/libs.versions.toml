@@ -6,6 +6,7 @@ espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.3"
+gson = "2.10.1"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -14,6 +15,7 @@ espresso-core = { group = "androidx.test.espresso", name = "espresso-core", vers
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
