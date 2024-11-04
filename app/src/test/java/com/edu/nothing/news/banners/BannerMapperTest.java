@@ -78,10 +78,20 @@ public class BannerMapperTest {
         // expected
         boolean isPresent = firstBanner.isPresent();
         String expectedTitle = "Community Edition - Get ready for the reveal";
+        String expectedImage = "https://s3-nothing-prod.s3.eu-central-1.amazonaws.com/2024-10-15/1728980705-579199-1500x1060-large.jpg";
+        String expectedMobileImage = "https://s3-nothing-prod.s3.eu-central-1.amazonaws.com/2024-10-15/1728980705-700493-1798x448-large.jpg";
+        String expectedLink = "https://nothing.community/d/18382-community-edition-get-ready-for-the-reveal";
+        String expectedButtonText = "Read More";
 
         assertTrue(isPresent);
-        assertEquals(expectedTitle, firstBanner.get().getBannerAttributes().getBannerTitle());
 
+        BannerAttributes bannerAttributes = firstBanner.get().getBannerAttributes();
+
+        assertEquals(expectedTitle, bannerAttributes.getBannerTitle());
+        assertEquals(expectedImage, bannerAttributes.getBannerImage());
+        assertEquals(expectedMobileImage, bannerAttributes.getBannerImageMobile());
+        assertEquals(expectedLink, bannerAttributes.getBannerLink());
+        assertEquals(expectedButtonText, bannerAttributes.getBannerButtonText());
     }
 
 }
