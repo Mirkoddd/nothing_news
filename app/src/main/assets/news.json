@@ -1,0 +1,38 @@
+[
+  {
+    "type": "news",
+    "id": "171",
+    "attributes": {
+      "title": "Carl at TechCrunch Disrupt 2024",
+      "imageUrl": "https://nothing.community/assets/files/2024-11-01/1730471909-961372-untitled-5.png",
+      "link": "https://nothing.community/d/19427-how-to-make-something-of-nothing-with-nothing",
+      "abstract": "Carl at TechCrunch Disrupt 2024",
+      "createdAt": "2024-11-01T14:41:28+00:00",
+      "updatedAt": "2024-11-01T14:41:28+00:00"
+    }
+  },
+  {
+    "type": "news",
+    "id": "170",
+    "attributes": {
+      "title": "Community Events - Zurich & Frankfurt",
+      "imageUrl": "https://s3-nothing-prod.s3.eu-central-1.amazonaws.com/2023-12-28/1703767928-703935-store-birthday.png",
+      "link": "https://nothing.community/d/18871-community-events-zurich-frankfurt",
+      "abstract": "Join us in Frankfurt and Zurich for Community Edition Project celebratory event.",
+      "createdAt": "2024-10-23T13:54:59+00:00",
+      "updatedAt": "2024-10-23T12:54:59+00:00"
+    }
+  },
+  {
+    "type": "news",
+    "id": "169",
+    "attributes": {
+      "title": "Community Insight: What Does Nothing Stand For?",
+      "imageUrl": "https://nothing.community/assets/files/2024-10-17/1729175543-777989-community-insight-series-8.png",
+      "link": "https://nothing.community/d/18563-community-insight-what-does-nothing-stand-for",
+      "abstract": "In one line, what do you believe “Nothing” stands for? ",
+      "createdAt": "2024-10-17T15:45:24+00:00",
+      "updatedAt": "2024-10-17T14:45:24+00:00"
+    }
+  }
+]

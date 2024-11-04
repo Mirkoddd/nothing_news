@@ -1,4 +1,4 @@
-package com.edu.nothing.news.banners;
+package com.edu.nothing.news.local;
 
 import android.content.Context;
 
@@ -11,8 +11,8 @@ import java.util.Optional;
 /**
  * Created by Mirko Dimartino on 28/10/24.
  */
-public class BannerUtils {
-    public static Optional<String> loadLocalBanners(Context context, String fileName) {
+public class JSONUtils {
+    public static Optional<String> loadLocalJSON(Context context, String fileName) {
         try (InputStreamReader inputStreamReader = new InputStreamReader(
                 context.getAssets().open(fileName), StandardCharsets.UTF_8);
              BufferedReader reader = new BufferedReader(inputStreamReader)) {
